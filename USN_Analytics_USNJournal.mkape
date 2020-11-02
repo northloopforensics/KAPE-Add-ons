@@ -1,0 +1,24 @@
+Description: 'USN Analytics USNJournal Parser'
+Category: FileSystem
+Author: Charlie Rubisoff
+Version: 1.0
+Id: d9262ce6-5f8f-4610-97d2-0527075d5dd3
+BinaryUrl: https://www.kazamiya.net/files/projects/usn_analytics_v.201801_exe.zip
+ExportFormat: csv
+FileMask: $J
+Processors:
+    -
+        Executable: usn_analytics.exe
+        CommandLine: -r -u -o %destinationDirectory% %sourceFile% 
+        ExportFormat: csv
+#####
+#USN Analytics was created by Teru Yamazaki
+#USN Analytics is not just parser, but has the following function: 
+#
+#It checks relevant record based on file ID, and gathers those records into one record.
+#It checks parent ID by each USN record, constructs path information and adds the informaiton
+#It presents one record for rename and move operation.
+#It creates the list of program execution history based on prefetch file creation/modification.
+#It creates the list of file open history based on lnk and ObjectID creation/modification.
+#It creates the list of potential indicator list based on peculiar extension and file name.
+#####
