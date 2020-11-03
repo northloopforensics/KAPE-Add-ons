@@ -21,4 +21,5 @@ Processors:
 #It creates the list of program execution history based on prefetch file creation/modification.
 #It creates the list of file open history based on lnk and ObjectID creation/modification.
 #It creates the list of potential indicator list based on peculiar extension and file name.
+#For KAPE use, place the .exe file into the Modules/bin directory.
 #####
