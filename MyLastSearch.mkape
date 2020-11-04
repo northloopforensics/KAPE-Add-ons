@@ -1,0 +1,19 @@
+Description: 'MyLastSearch - Nirsoft -Parses Searches from Chrome, Opera, IE, & Firefox'
+Category: BrowsingHistory
+Author: Charlie Rubisoff
+Version: 1.0
+Id: d9262ce6-5f8f-4610-97d2-0527075d5dd3
+BinaryUrl: https://www.nirsoft.net/utils/mylastsearch.zip
+ExportFormat: csv
+Processors:
+    -
+        Executable: MyLastSearch.exe 
+        CommandLine: /%sourceDirectory% /scomma %destinationDirectory%\LastSearch.csv  
+        ExportFormat: csv
+#####
+#MyLastSearch was created by Nirsoft
+#MyLastSearch utility scans the cache and history files of your Web browser, and locate all 
+#search queries that you made with the most popular search engines (Google, Yahoo and MSN) and 
+#with popular social networking sites (Twitter, Facebook, MySpace). The search queries that 
+#you made are displayed in a table with the following columns: Search Text, Search Engine, #Search Time, Search Type (General, Video, Images), Web Browser, and the search URL. 
+#####
