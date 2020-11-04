@@ -2,7 +2,7 @@ Description: 'WifiHistoryView - Nirsoft -Parses Wifi Connection History'
 Category: Misc
 Author: Charlie Rubisoff
 Version: 1.0
-Id: c189b74b-2510-45ab-bec7-c1663847dbb7
+Id: e3765fef-fc7c-40b2-b5e9-aab06316ee6d
 BinaryUrl: https://www.nirsoft.net/utils/mylastsearch.zip
 ExportFormat: csv
 Processors:
