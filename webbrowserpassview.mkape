@@ -3,7 +3,7 @@ Category: BrowsingHistory
 Author: Charlie Rubisoff
 Version: 1.0
 Id: c189b74b-2510-45ab-bec7-c1663847dbb7
-BinaryUrl: https://www.nirsoft.net/utils/mylastsearch.zip
+BinaryUrl: https://www.nirsoft.net/utils/web_browser_password.html
 ExportFormat: csv
 Processors:
     -
@@ -12,5 +12,5 @@ Processors:
         ExportFormat: csv
 #####
 #WebBrowserPassView was created by Nirsoft
-#The utility scans the cache and history files of your Web browser, and locates tored passwords.
+#The utility scans the cache and history files of your Web browser, and locates stored passwords.
 #####
