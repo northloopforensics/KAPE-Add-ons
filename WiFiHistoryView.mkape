@@ -3,7 +3,7 @@ Category: Misc
 Author: Charlie Rubisoff
 Version: 1.0
 Id: e3765fef-fc7c-40b2-b5e9-aab06316ee6d
-BinaryUrl: https://www.nirsoft.net/utils/mylastsearch.zip
+BinaryUrl: https://www.nirsoft.net/utils/wifi_history_view.html
 ExportFormat: csv
 Processors:
     -
@@ -12,4 +12,5 @@ Processors:
         ExportFormat: csv
 #####
 #WifiHistoryView was created by Nirsoft.
+#Parses the Archive-Microsoft-Windows-WLAN-AutoConfig%4Operational*.evtx log
 #####
